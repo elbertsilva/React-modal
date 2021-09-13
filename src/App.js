@@ -9,7 +9,7 @@ function App() {
       <button onClick={() => setIsModalVisible(true)}>Open</button>
       {isModalVisible ? (
         <h1>
-          <Modal onClick={() => setIsModalVisible(false)}>
+          <Modal onClose={() => setIsModalVisible(false)}>
             <h2>Modal do app</h2>
           </Modal>
         </h1>
