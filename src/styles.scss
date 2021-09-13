@@ -9,6 +9,9 @@
   top: 0;
   width: 100%;
   z-index: 10;
+  @media (max-width: 1400) {
+    display: flex;
+  }
   .container {
     background-color: #fff;
     border-radius: 20px;
